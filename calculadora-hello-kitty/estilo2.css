@@ -1,0 +1,72 @@
+
+
+body {
+  margin: 50px;
+  background-image: url("hellokittyfondo2.jpeg");
+  background-size: cover;
+  }
+
+.conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100hv;
+} 
+
+
+.calculadora {
+	
+	display: grid;
+	grid-template-columns: repeat(4, 70px);
+	grid-template-rows: 100px repeat(5, 70px);
+	padding: 120px;
+	background-image: url("hellokittyborde.png");
+	background-size: 520px 685px;
+	filter: drop-shadow(20px 20px);
+}
+
+ button {
+	cursor: pointer;
+	margin: 10px;
+	padding: 0;
+	border-radius: 32px;
+	font-size: 1.5em;
+	font-style: bold;
+	font-family: Arial;
+	background-color: #F3D9F0;
+	box-shadow: 10px 10px;
+}
+
+button:active {
+	background-color: #D98DCE;
+}
+
+.col-2 {
+	grid-column-start: 2;
+	grid-column: span 2;
+}
+
+.display{
+	grid-column: 1/-1;
+	padding: 10px 10px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: #FFF6FE;
+	border: solid;
+	border-radius: 32px;
+	text-align: right;
+	justify-content: space-between;
+	word-break: break-all;
+	box-shadow: 10px 10px;
+}
+
+#valor-actual {
+	font-size: 1.5em;
+	font-family: Arial;
+}
+
+#valor-anterior {
+	font-size: 2em;
+	font-family: Arial;
+}
