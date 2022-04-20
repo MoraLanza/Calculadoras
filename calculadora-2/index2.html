@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora2</title>
+    <link   rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+    <div class="calculator">
+        <div class="display">
+            <div id="output"></div>
+            <div id="result"></div>
+        </div>
+        <div class="input">
+            <button onclick="clean()">AC</button>
+            <button class="numop">(</button>
+            <button class="numop">)</button>
+            <button class="numop">+</button>
+
+            <button class="numop">7</button>
+            <button class="numop">8</button>
+            <button class="numop">9</button>
+            <button class="numop">-</button>
+
+            <button class="numop">4</button>
+            <button class="numop">5</button>
+            <button class="numop">6</button>
+            <button class="numop">*</button>
+
+            <button class="numop">1</button>
+            <button class="numop">2</button>
+            <button class="numop">3</button>
+            <button class="numop">/</button>
+
+            <button onclick="erase()">DEL</button>
+            <button class="numop">0</button>
+            <button class="numop">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+ </div>
+</body>
+<script src="calculadora.js"></script>
+</html>
